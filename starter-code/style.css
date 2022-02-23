@@ -1,0 +1,48 @@
+.body {
+    margin: 0;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.custom-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grayscale {
+    filter: grayscale();
+}
+
+.red-sub-header {
+    background-color: #ed564b;
+    /*width: 100vw;*/
+    margin: 0;
+}
+
+.col {
+    text-align: center;
+    color: white;
+}
+
+
+.col img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+/* nicolo gave this for arrow but doesnt work yet.
+.dropdown-toggle::after {
+    content: none;
+}
+*/
+
+#footer-id {
+    height: 30vh;
+}
